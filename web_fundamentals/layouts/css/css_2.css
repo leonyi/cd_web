@@ -1,0 +1,31 @@
+p{
+	width: 180px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 14px;
+	background-color: #eee;
+	display: inline-block;
+}
+/*a{  
+	margin: 10px;
+	background-color: #eee;
+	color: black;
+	padding: 10px;
+	display: block;
+
+}*/
+/*ul{
+	background-color: blue;
+	display: inline;
+}
+ul li{
+	background-color: green;
+	display: inline;
+}*/
+#nav-menu{
+  list-style-type: none; /*This gets rid of the bullets.*/
+}
+#nav-menu li {
+  display: inline;
+}
+

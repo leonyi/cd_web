@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My Awesome Fake Blog</title>
+        <meta name="description" content="This blog talks about topics on using Git.">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Some Things About Git</h1>
+                <ul>
+                    <li><a href="#Setting Things Up"> Setting Things Up </a></li>
+                    <li><a href="#A Cheat Sheet"> A Cheat Sheet </a></li>
+                    <li><a href="#Branching">Branching</a></li>
+                    <li><a href="#Updating and Merging">Updating and Merging</a></li>
+                    <li><a href="#Replacing Local Changes">Replacing Local Changes</a></li>
+                </ul>
+            </div>
+            <div id="main-content">
+                <h2>Setting Things Up</h2>
+                <p>To get started you need to download git for your specific OS.  The options are available below:</p> 
+                <ul>
+                	<li><a href="http://git-scm.com/download/mac">Download for OSX</a></li>
+                	<li><a href="https://git-scm.com/download/win">Download for Windows</a></li>
+                	<li><a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Download for Linux</a></li>
+                </ul>
+
+				<h2>A Cheat Sheet</h2>
+                <table border="1">
+                	<thead>
+                		<tr>
+							<th>Action</th>
+							<th>Command</th>
+							<th>Comments</th>
+                		</tr>
+                	</thead>
+                	<body>
+                		<tr>
+                			<td>Create a new repository</td>
+                			<td><i><font color="red"> git init </i></td></font>
+                			<td></td>
+                		</tr>
+						<tr>
+							<td>Check out a repository</td>
+							<td><i><font color="red">git clone username@host:/path/to/repository </i></td></font>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Add files</td>
+							<td><i><font color="red"> git add your_filename or git add username@host:/path/to/repository </i></td></font>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Commit files</td>
+							<td><i><font color="red"> git commit -m "My commit message"</i></td></font>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Push files</td>
+							<td><i><font color="red"> git push origin master</font></i></td>
+							<td>To connect your existing repo to a remote server add it with <font color="red"><i>git remote add origin</i></font></td>
+							
+						</tr>
+						<tr>
+							<td>Update files</td>
+							<td><i><font color="red"> git pull</font></i></td>
+							<td>This fetches and merges remote changes.</td>
+							
+						</tr>
+						<tr>
+							<td>Merge files</td>
+							<td><i><font color="red"> git merge other_branch</font></i></td>
+							<td>This may result in conflicts that you will have to manually resolve.  After resolving do a "git add your_filename" to mark them as merged.</td>		
+						</tr>
+						<tr>
+							<td>Remove Branches</td>
+							<td><i><font color="red"> git branch -d branch_name (local branch) </font></i></td>
+							<td>To remove a remote branch run, <b>git push :branch_name</b></td>		
+						</tr>
+                	</body>
+
+
+
+                </table>
+
+                <h2>Branching</h2>
+                <p>Branches are used to develop features and keep them isolated from each other. The master branch must contain the code that is currently running in production.  Other branches are used for active development and testing.  Once they are ready they can be merged to the master branch.  To create a branch we do <b>git checkout -b new_feature_branch</b></p>
+
+                <h2>Replacing Local Changes</h2>
+                <p>If something goes awry you can replace local changes with <b>git checkout -- your_filename</b> </p>
+  
+            </div>
+
+            <div id="side-menu">
+                <h2>Other Resources</h2>
+                <h3>Guides</h3>
+                <ul>
+                    <li><a href="http://marklodato.github.com/visual-git-guide/index-en.html">A Visual Git Guide</a></li>
+                	<li><a href="http://think-like-a-git.net/">Think Like a Git</a></li>
+                    <li><a href="http://book.git-scm.com/">Git Community Book</a></li>
+                </ul>
+                <h3>Graphical Clients</h3>
+                <ul>
+                    <li><a href="http://gitx.laullon.com/">Git X(OSX)</a></li>
+                    <li><a href="http://www.git-tower.com/">Git Tower (OSX)</a></li>
+                	<li><a href="http://www.sourcetreeapp.com/">Source Tree (OSX, Windows)</a></li>
+                </ul>
+            </div>
+
+			<form>
+				<div>
+					<p><b>Please take this short survey</p></b>
+					<label for="email">Email:</label>
+				    <input type="text" id="email" name="email">
+					<br></br>
+
+					<input type="radio" id="yes" name="yesno" value="yes">
+					<label for="yes">Yes, please send me daily tips and tricks!</label>
+					<input type="radio" id="no" name="yesno" value="no">
+					<label for="no">No, please don't send me any email!</label>
+
+					<p><b>How did you hear about us?</p></b>
+				    <input type="checkbox" id="checkBox" name="checkBox" value="google">
+				    <label for="checkBox">Google Search</label>
+				    <br></br>
+				    <input type="checkbox" id="checkBox" name="checkBox" value="facebook">
+				    <label for="checkBox">Facebook</label>
+				    <br></br>
+				    <input type="checkbox" id="checkBox" name="checkBox" value="tweeter">
+				    <label for="checkBox">Tweeter</label>
+				    <br></br>
+				    <button type="submit">Submit</button>
+				</div>
+			</form>
+
+            <h3>Get Help and Other Sources</h3>
+            <div id="footer">
+                <a href="http://groups.google.com/group/git-users/">Git User Mailing List</a>
+                <a href="http://jk.gs/git/">#git on irc.freenode.net</a>
+
+            </div>
+       </div>
+   </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Awesome Web Form</title>
+		<meta name="description" content="A really cool form!">
+	</head>
+
+	<body>
+		<form action="process.php" method="post">
+	    	<p><h1>My Registration Form</h1></p>
+	    	<label for="first_name">First Name:</label>
+		    <input type="text" id="first_name" name="first_name">
+		   
+			<br></br>
+		    <label for="last_name">Last Name:</label>
+		    <input type="text" id="last_name" name="last_name">
+		   
+		   	<br></br>
+		    <label for="email">Email:</label>
+		    <input type="text" id="email" name="email">
+		    <br></br>
+		    <label for="password">Password:</label>
+		    <input type="password" id="password" name="password">
+		    
+			<br></br>
+			<label for="pw_confirm">PW Confirmation:</label>	
+		   	<input type="password" id="pw_confirm" name="pw_confirm">
+		   	
+		   	<br></br>
+		   	<label for="birthday">Birthday</label> 
+		   	<input type="date" id="birthday" name="birthday">
+		   	<img id="calendar" src="img/calendar_icon.jpg" alt="Test calendar image" width="30" height="30" />
+		   
+		    <br></br>
+		    <label for="male">Male</label>
+		    <input type="radio" id="male" name="gender" value="male">
+			<label for="female">Female</label>
+		    <input type="radio" id="female" name="gender" value="female">
+		    <label for="other">Other</label>
+		    <input type="radio" id="other" name="gender" value="other">
+		    
+		  	<br></br>
+			<label for="description">A short description about yourself</label>
+
+			<br></br>
+			<textarea rows="5" cols="33" id="description" name="description"></textarea>
+
+			<br></br>
+		    <span>Favorite Language </span></span><select name="language">
+		    		<option value="javascript">JavaScript</option>
+		    		<option value="python">Python</option>
+		    		<option value="ruby">Ruby</option>
+			</select>
+
+		    <p><input type="submit" value="Submit"></p>
+		</form>
+	</body>
+</html>
