@@ -1,0 +1,100 @@
+/**
+ * Reset to make sure all browsers get this zero setting.
+ */
+*{
+	margin: 0px;
+	padding: 0px
+}
+.wrapper{
+	max-width: 960px;  /* 20px smaller, to fit the padding on the sides.*/
+	height: auto;
+	background-color: #1d345c;
+	margin: 0px auto;
+	padding: 20px;
+}
+.header{
+	width: 945px;
+	padding: 5px; 
+	margin-bottom: 15px;
+	border-radius: 10px;
+	color: white;
+	background-color: #c42b0d; 
+}
+.navigation{
+	height: 200px;
+ 	width: 190px;
+ 	border-radius: 10px;
+ 	background-color: #019e98;
+ 	color: #6bdae4;
+ 	display: inline-block;
+ 	vertical-align: top;
+}	
+.nav_data{
+	margin-top: 10px;	 
+	margin-left: 10px;
+	font-size: small;
+}
+ul.nav_data_list{
+	margin-left: 25px;
+
+}
+ul.nav_data_inner_list{
+	margin-left: 30px;
+}
+.main_content{
+	height: 400px;
+	width: 745px;
+	padding: 5px;
+	margin-left: 10px;
+	color: #c2d6ea;
+	font-size: small;
+	background-color: black;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main_content_data{
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+p.js_description{
+	margin-top: 5px;
+}
+
+ul.jsdetails_list{
+	margin-top: 5px;
+	margin-left: 15px;
+}	
+
+.underline_lightblue{
+	color: #60cfe0;
+	text-decoration: underline;
+
+}
+.light_purple{
+	color: #7d92f6;
+}
+.footer{
+	 width: 945px;	
+	 height: 20px;
+	 background-color: #5e6672;
+	 color: #c2d6ea;
+	 border-radius: 10px;
+	 margin-top: 10px;
+	 margin-bottom: 1px;
+	 padding: 10px;
+	 display: block;
+}
+p.footer_data{
+	font-size: small;
+}
+.white{
+	color: white;
+}
+h1{
+	color: white;
+	text-align: left;
+	margin-left: 2px;
+}
