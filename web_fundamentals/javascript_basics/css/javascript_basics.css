@@ -7,7 +7,7 @@
 }
 .wrapper{
 	max-width: 960px;  /* 20px smaller, to fit the padding on the sides.*/
-	height: auto;
+	max-height: auto;
 	background-color: #1d345c;
 	margin: 0px auto;
 	padding: 20px;
@@ -21,8 +21,8 @@
 	background-color: #c42b0d; 
 }
 .navigation{
-	height: 200px;
- 	width: 190px;
+	max-height: 200px;
+ 	max-width: 190px;
  	border-radius: 10px;
  	background-color: #019e98;
  	color: #6bdae4;
@@ -42,16 +42,17 @@ ul.nav_data_inner_list{
 	margin-left: 30px;
 }
 .main_content{
-	height: 400px;
-	width: 745px;
+	max-height: 400px;
+	max-width: 745px;
 	padding: 5px;
-	margin-left: 10px;
+	margin-left: 10px auto;
 	color: #c2d6ea;
 	font-size: small;
 	background-color: black;
 	border-radius: 10px;
 	display: inline-block;
 	vertical-align: top;
+	overflow: auto;
 }
 
 .main_content_data{
@@ -77,8 +78,8 @@ ul.jsdetails_list{
 	color: #7d92f6;
 }
 .footer{
-	 width: 945px;	
-	 height: 20px;
+	 max-width: 945px;	
+	 max-height: 20px;
 	 background-color: #5e6672;
 	 color: #c2d6ea;
 	 border-radius: 10px;
