@@ -1,0 +1,36 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body{
+	max-height: 100%;
+	margin: 0px auto;
+	background: #ffffff;
+}
+
+.content-wrapper{
+	max-width: 960px; 
+	max-height: auto;
+	background-color: #ffffff;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.imgs-attrs {
+	margin-top: 8px;
+	border: 4px solid #000000;
+
+}
+
+.button-attrs {
+	font-size: medium;
+	width: 150px;
+	height: 25px;
+	background-color: green;
+	font: white;
+	border-radius: 5px;
+	margin: 5px;
+	border: 4px solid #000000;
+	box-shadow: 4px 4px 4px #ababab;
+}

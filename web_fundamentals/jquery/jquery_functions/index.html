@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My jQuery Basic Assignment!</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+<!-- 	<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>	
+ -->	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/script.js"/></script>
+	<h1>JQuery Function Fun Facts</h1>
+</head>
+<body>
+	<div class="content-wrapper">
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-addclass">addClass</button>
+			<div class="func-desc-box">
+				<h2>addClass</h2>
+				<p id="js-add-red">Click the button to add class <span class="red">red</span> to this paragraph.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-after">after</button>
+			<div class="func-desc-box">
+				<h2>after</h2>
+				<p id="js-add-after" >Click the button to add something after this paragraph.</p>
+			</div>
+		</div>
+
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-append">append</button>
+			<div class="func-desc-box">
+				<h2>append</h2>
+				<p>Click the button to append more items to the list.</p>
+				<ol id="js-add-append" class="list-attributes">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">		
+			<button class="button-attributes" id="js-attr">attr</button>
+			<div class="func-desc-box">
+				<h2>attr</h2>
+				<p>Click the button to add new sizing to the image via attr.</p>
+				<img src="imgs/test.jpg" id="js-add-attr" alt="test.jpg" width="500" height="400">
+			</div>	
+		</div>
+ 
+		<div class="func-section-wrapper">		
+			<button class="button-attributes" id="js-before">before</button>
+			<div class="func-desc-box">
+				<h2>before</h2>
+				<p id="js-add-before">Click the button to add something before this paragraph.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-click">click</button>
+			<div class="func-desc-box">
+				<h2>click</h2>
+				<p>Click the button and see what happens! :)</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-html">html</button>
+			<div class="func-desc-box">
+				<h2>html</h2>
+				<p>Click the button to change the following paragraphs:</p>
+				<p id="js-add-html"><span class="red">I am a pragraph and soon I will look different!</span></p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<div>
+				<p id="js-add-slidetoggle"><span class="red">SlideToggle me up and down!</span></p>
+				<button class="button-attributes" id="js-slidetoggle">slideToggle</button>
+			</div>
+			<div class="func-desc-box">
+				<h2>slideToggle</h2>
+				<p>Click the button to see the red paragraph slide up and down.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-text">text</button>
+			<div class="func-desc-box">
+				<h2>text</h2>
+				<p>Click the button to change the text on the following paragraphs:</p>
+				<p class="js-add-text">This is a paragraph.</p>
+				<p class="js-add-text">This is another paragraph.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<button class="button-attributes" id="js-toggle">toggle</button>
+			<div class="func-desc-box">
+				<h2>toggle</h2>
+				<p>Click the button to toggle between hide() and show() and see the effects on the following paragraph.</p>
+				<p id="js-add-toggle"><span class="red">Hide me and show me!</span></p>
+
+
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<div>
+				<p>Name: <input type="text" name="user"></p>
+				<button class="button-attributes" id="js-val">val</button>
+			</div>
+			<div class="func-desc-box">
+				<h2>val</h2>
+				<p>Value sets the value to a variable from an input field.  Try it out!</p>
+			</div>
+		</div>
+		<div class="func-section-wrapper">
+			<div>
+				<button class="button-attributes" id="js-data1">Attach data</button>
+				<button class="button-attributes" id="js-data2">Get data</button>
+			</div>
+
+			<div class="func-desc-box">
+				<h2>data</h2>
+				<p>Click the buttons to add data to display.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<div>
+				<p id="js-fadeinandout"><span class="red">I fade in and out. Have fun! :D</span></p>
+				<button class="button-attributes" id="js-fadein">fadeIn</button>
+				<button class="button-attributes" id="js-fadeout">fadeOUt</button>
+			</div>
+			<div class="func-desc-box">
+				<h2>fadeIn</h2>
+				<p>Click the buttons and see this paragraph fade in and out.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<div>
+				<p id="js-hideandshow"><span class="red">Hide me and reveal me! :D</span></p>
+				<button class="button-attributes" id="js-hide">hide</button>
+				<button class="button-attributes" id="js-show">show</button>
+			</div>
+			<div class="func-desc-box">
+				<h2>hide</h2>
+				<p>Click the buttons to hide and show the red paragraph.</p>
+			</div>
+		</div>
+
+		<div class="func-section-wrapper">
+			<div>
+				<p id="js-add-slideupdown"><span class="red">You can slide me up and then down!</span></p>
+				<button class="button-attributes" id="js-slideup">slideUp</button>
+				<button class="button-attributes" id="js-slidedown">slideDown</button>
+			</div>
+			<div class="func-desc-box">
+				<h2>slideDown</h2>
+				<p>Click the buttons to slide content up and down.</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>

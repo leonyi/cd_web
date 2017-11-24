@@ -1,6 +1,6 @@
 * {
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 
 html, body {
@@ -157,7 +157,7 @@ hr {
 	border-top: thick solid #0489dd;
 	border-right: thick solid #0489dd;
 	border-left: thick solid #0489dd;
-	box-shadow: 2px 2px 2px #ababab
+	
 }
 
 .html-css-js-right {
@@ -196,7 +196,9 @@ li {
 
 .home-dnstext-dimensions {
 	margin-left: 5px;
+	margin-bottom: 10px;
 	display: inline-block;
+	vertical-align: bottom;
 }
 
 .home-img-dimensions {
@@ -208,7 +210,6 @@ li {
 	width: 240px;
 	margin-right: 2px;
 	display: inline-block;
-	vertical-align: top;
 }
 
 .phone-text-box {
@@ -240,6 +241,7 @@ li {
 
 }
 
+
 .dark-gray {
 	color: #494949;
 }
@@ -253,11 +255,15 @@ li {
 }
 
 .turquoise {
-	color: #18c4e0;
+	color: #2aa8ba;
 }
 
 .font-large {
 	font-size: large;
+}
+
+.font-xlarge {
+	font-size: xx-large;
 }
 
 .font-small {
@@ -269,6 +275,10 @@ li {
 
 }
 
+.no-a-decoration {
+	text-decoration: none;
+	color: #2aa8ba;
+}
 .header-title {
 	margin-top: 35px;
 	margin-left: -60px;
