@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Users Form</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+<body>
+	<div class="content-wrapper">
+		<table id="tbl1">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Address</th>
+					<th>Contact #</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+		<form id="form1"><h1>Add User</h1>
+			<div class="input-attrs">
+				<div class="input-block">
+					First name:<input type='text' id="fname" value="First Name" onfocus="if (this.value=='First Name') this.value=''" placeholder="First Name">
+				</div>
+				<div class="input-block">
+					Last name:<input type='text' id="lname" value='Last Name' onfocus="if (this.value=='Last Name') this.value=''" placeholder="Last Name">
+				</div>
+				<div class="input-block">
+					Email Address:<input type="text" id="email" value="Email Address" onfocus="if (this.value=='Email Address') this.value=''" placeholder="Email Address">
+				</div>
+				<div class="input-block">
+					Contact No.:<input type="text" id="phone" value='Phone Number' onfocus="if (this.value=='Phone Number') this.value=''" placeholder="Phone Number">
+				</div>
+				<input id="add-row" class="btn" type="button" value="Add User">
+				<input class="btn" type="reset" value="Reset Form">
+			</div>
+		</form>
+		<!-- <button type="button" id="delete-row" class="btn">Delete User</button> -->
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body{
+	max-height: 100%;
+	margin: 0px auto;
+	background: #ffffff;
+}
+
+.content-wrapper{
+	max-width: 960px; 
+	max-height: auto;
+	background-color: #ffffff;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.button-attrs{
+	font-size: medium;
+	width: 150px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 25px;
+	color: white;
+	background-color: #092326;
+	box-shadow: 4px 4px 4px #ababab;
+}
+
+.imgs-wrapper {
+	margin-top: 25px;
+}
+.imgs-attrs {
+	margin-bottom: 4px;
+	display: block;
+}
