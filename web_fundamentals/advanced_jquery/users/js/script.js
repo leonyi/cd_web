@@ -8,8 +8,6 @@ $(document).ready(function(){
 
 		var markup = "<tr><td>" + name + "</td><td>" + lname + "</td><td>" + email + "</td><td>" + contact + "</td></tr>";
 		$("table tbody").append(markup);
-
-		console.log('markup')
 	});
 
 	 // Find and remove selected table rows
