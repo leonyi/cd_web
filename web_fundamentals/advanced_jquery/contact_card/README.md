@@ -8,4 +8,4 @@ This is still work in progress and there is still work to be completed and bugs 
 
 1. Toggle should wokr on a per card basis - we currently click a single "description" button and all of them flip at the same time
 2. Add more details to the front of the card using the email and phone number.
-3. Add user input validation for name, email and phone number.
+3. Add user input validation for name, email and phone number.i
