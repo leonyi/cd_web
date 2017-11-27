@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Card</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="content-wrapper">
+		<div class="card-wrapper">
+			<form id="form1"><h1>Contact Card</h1>
+			<div>
+				<div class="input-block">
+					First name:<input type='text' id="fname" value="First Name" onfocus="if (this.value=='First Name') this.value=''" placeholder="First Name">
+				</div>
+				<div class="input-block">
+					Last name:<input type='text' id="lname" value="Last Name" onfocus="if (this.value=='Last Name') this.value=''" placeholder="Last Name">
+				</div>
+				<div class="input-block">
+					Email Address:<input type="text" id="email" value="Email Address" onfocus="if (this.value=='Email Address') this.value=''" placeholder="Email Address">
+				</div>
+				<div class="input-block">
+					Phone Number:<input type="text" id="phone" value="Phone Number" onfocus="if (this.value=='Phone Number') this.value=''" placeholder="Phone Number">
+				</div>
+				<div class="description">
+					<label class="desc-label" for="description">Description:</label>
+					<textarea id="description" class="description" name="textarea" rows="10" cols="50" placeholder="Enter Description"></textarea>
+				</div>
+
+	
+				<input id="add-contact" class="contact-btn" type="button" value="Add Contact">
+		
+			</div>
+			</form>
+			<div id="contacts">
+
+
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
